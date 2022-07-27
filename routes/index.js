@@ -1,11 +1,11 @@
 const express = require("express");
+const book = require("./book");
+const member = require("./member");
 
 const routes = express.Router();
 
-routes.use('/test', test);
+routes.use('/book', book);
+routes.use('/member', member);
 
-function test(){
-    console.log("test");
-}
 
 module.exports = routes;

@@ -1,0 +1,1 @@
+sequelize-auto -o "./models" -d book_rent -h localhost -u root -x -e mysql -l es5 --cf u --cm u --cp l
