@@ -14,7 +14,7 @@ module.exports = function(sequelize, DataTypes) {
     },
     penalize: {
       type: DataTypes.DATE,
-      allowNull: false,
+      allowNull: true,
       field: 'PENALIZE'
     }
   }, {
