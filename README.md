@@ -1,9 +1,10 @@
 # Book-Rent
 Step :
-1. Buat Database MySql
+1. Buat Database MySql "book_rent"
 2. Copy .env.example. dan ganti sesuai konfigurasi database dan ubah menjadi .env 
 3. npm install
-4. npm run start
+4. jalankan "generate_model.txt" dengan meng copy isinya dan dijalankan dalam terminal (sesuaikan bila terdapat password, dokumentasi : https://www.npmjs.com/package/sequelize-auto) 
+5. npm run start
 
 Routes API:
 1. Members can borrow books with conditions:
